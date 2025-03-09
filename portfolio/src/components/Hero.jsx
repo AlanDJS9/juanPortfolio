@@ -1,4 +1,4 @@
-import { profileData } from "../../juanPortfolio/public/profileData";
+import { profileData } from "../data/profileData";
 import { theme } from "../utils/theme"; // Import the theme
 
 const Hero = () => {

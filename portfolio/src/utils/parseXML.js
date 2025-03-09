@@ -1,10 +1,9 @@
+import contentData from "../data/content.xml?raw";
 export const fetchXMLData = async () => {
   try {
-    const response = await fetch("../juanPortfolio/content.xml");
-    const text = await response.text();
-
+  
     const parser = new DOMParser();
-    const xml = parser.parseFromString(text, "text/xml");
+    const xml = parser.parseFromString(contentData, "text/xml");
 
     const data = Array.from(xml.getElementsByTagName("item")).map((item, index) => {
       const title = item.getElementsByTagName("title")[0]?.textContent || "";

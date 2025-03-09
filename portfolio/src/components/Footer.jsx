@@ -1,4 +1,4 @@
-import { socialLinks } from "../../public/profileData";
+import { socialLinks } from "../data/profileData";
 import { theme } from "../utils/theme";
 import { RiArrowUpCircleFill } from "react-icons/ri";
 
