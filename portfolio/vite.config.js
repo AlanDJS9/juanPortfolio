@@ -6,6 +6,7 @@ import tailwindcss from '@tailwindcss/vite'
 export default defineConfig({
   plugins: [react(),
     tailwindcss(),
-
   ],
+  base: "/juanPortfolio/", // Set the repository name as the base path
+
 })
