@@ -1,6 +1,6 @@
 export const fetchXMLData = async () => {
   try {
-    const response = await fetch("../content.xml");
+    const response = await fetch("../juanPortfolio/content.xml");
     const text = await response.text();
 
     const parser = new DOMParser();
