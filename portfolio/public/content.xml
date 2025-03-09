@@ -1,0 +1,24 @@
+<portfolio>
+  <item>
+    <title>My Animation Project</title>
+    <subtitle>3D Character Animation</subtitle>
+    <description>This project showcases advanced rigging and animation techniques.</description>
+    <images>
+      <image>https://picsum.photos/200/300?random=1</image>
+      <image>https://picsum.photos/200/300?random=2</image>
+      <image>https://picsum.photos/200/300?random=3</image>
+      <image>https://picsum.photos/200/300?random=4</image>
+      <image>https://picsum.photos/200/300?random=5</image>
+      <image>https://picsum.photos/200/300?random=6</image>
+
+
+    </images>
+  </item>
+  <item>
+    <title>My Animation Project 2 </title>
+    <subtitle>3D Character Animation</subtitle>
+    <description>This project showcases advanced rigging and animation techniques.</description>
+  
+    <video>https://www.youtube.com/embed/exampleID</video>
+  </item>
+</portfolio>
